@@ -21,6 +21,7 @@ public class Main {
 //        apa.loopArrayDontPrintMiddle();
 //        apa.swapFirstAndMiddle();
 //        apa.sortArrayAscending();
-        apa.creatingObjectArray();
+//        apa.creatingObjectArray();
+        apa.favouritThings();
     }
 }

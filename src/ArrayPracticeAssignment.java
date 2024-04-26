@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -177,5 +178,13 @@ public class ArrayPracticeAssignment {
         sc.nextLine();
         String[] facouriteThings = new String[arraySize];
 
+       for(int i=0;i<arraySize;i++){
+           System.out.println("Please enter the name of the favourite thing: ");
+           facouriteThings[i]= sc.nextLine();
+       }
+       for(String thing : facouriteThings){
+           System.out.println(thing);
+       }
     }
 }
+// git repo link: https://github.com/mca67625/ArrayTraining.git
